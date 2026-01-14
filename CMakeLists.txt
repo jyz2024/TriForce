@@ -20,7 +20,7 @@ file(GLOB TEST_SOURCES "tests/*.cpp")
 include_directories(${CMAKE_SOURCE_DIR}/application/ ${CMAKE_SOURCE_DIR}/common/ ${CMAKE_SOURCE_DIR}/crypto/ ${CMAKE_SOURCE_DIR}/secure_model/ ${CMAKE_SOURCE_DIR}/external)
 
 # 添加外部头文件路径
-set(FSS_PATH "/home/jiang/EzPC/FSS")
+set(FSS_PATH "/home/EzPC/FSS")
 include_directories(${FSS_PATH}/src)
 include_directories(${FSS_PATH}/src/deps/cryptoTools)
 
